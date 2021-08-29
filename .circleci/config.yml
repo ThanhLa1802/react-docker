@@ -8,13 +8,6 @@ workflows:
   node-tests:
     jobs:
       - node/test
-      - build-and-push:
-          requires:
-            - node/test
-          filters:
-            branches:
-              only:
-                - main
       # uncomment the 3 following lines to enable deploying
       # - deploy:
       #     requires:
