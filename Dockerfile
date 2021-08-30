@@ -1,5 +1,5 @@
 #create from nodejs 14
-FROM node:16.8.0-stretch-slim as build
+FROM node:14-stretch-slim as build
 WORKDIR /app
 COPY . /app
 RUN npm install && npm run build
