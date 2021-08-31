@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       <h1> Hello ReactJs! </h1>
-      <a className="App-link" href="https://www.youtube.com/channel/UC9L5_YMFz8JfBeQtUic8-3A">Youtube Channel - Software Engineer </a>
+      <a className="App-link" href="https://www.youtube.com/channel/UC9L5_YMFz8JfBeQtUic8-3A">Thanh's Youtube Channel - Software Engineer </a>
       </header>
     </div>
   );
